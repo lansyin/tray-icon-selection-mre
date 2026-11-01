@@ -1,0 +1,9 @@
+[package]
+name = "tray-icon-selection-mre"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tray-icon = "0.26.1"
+tray-icon-patched = { git = "https://github.com/lansyin/tray-icon", package = "tray-icon", branch = "fix-win-icon-selection" }
+winit = "0.30.13"
